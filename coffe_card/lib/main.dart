@@ -16,8 +16,8 @@ class Sandbox extends StatelessWidget {
         backgroundColor: Colors.lightBlueAccent,
         centerTitle: true,
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      body: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(width: 40, height: 100, color: Colors.red),

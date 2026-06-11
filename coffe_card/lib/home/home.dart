@@ -1,3 +1,4 @@
+import 'package:coffe_card/coffe_prefs.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -33,13 +34,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.indigo[200],
             padding: const EdgeInsets.all(20),
-            child: const Text(
-              "Coffe prefs",
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+            child: CoffePrefs(),
           ),
         ],
       ),

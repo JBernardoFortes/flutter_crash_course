@@ -16,7 +16,33 @@ class Home extends StatelessWidget {
           letterSpacing: 2,
         ),
       ),
-      body: Container(color: Colors.white),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            color: Colors.lightBlueAccent[400],
+            padding: const EdgeInsets.all(20),
+            child: const Text(
+              "How i like my coffe...",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.indigo[200],
+            padding: const EdgeInsets.all(20),
+            child: const Text(
+              "Coffe prefs",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
